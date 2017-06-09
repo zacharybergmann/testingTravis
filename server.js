@@ -7,3 +7,5 @@ server.listen(3000, () => console.log('listening at port 3000'));  // eslint-dis
 server.get('/', (req, res) => res.sendStatus(200));
 
 module.exports = server;
+
+console.log('hello, again');  // eslint-disable-line
