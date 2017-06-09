@@ -5,8 +5,8 @@ const server = require('./server');
 const expect = chai.expect;
 
 chai.use(chaiHttp);
-describe('Langsnap API server', (done) => {
-  it('should return a 200 response for a GET request to the / route', () => {
+describe('Langsnap API server', (done) => {   // eslint-disable-line
+  it('should return a 200 response for a GET request to the / route', () => {  // eslint-disable-line
     chai.request(server)
       .get('/')
       .then((resp) => {
