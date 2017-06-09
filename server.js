@@ -8,4 +8,4 @@ server.get('/', (req, res) => res.sendStatus(200));
 
 module.exports = server;
 
-console.log('hello');  // eslint-disable-line
+console.log('hello, again');  // eslint-disable-line
